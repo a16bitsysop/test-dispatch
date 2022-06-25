@@ -1,0 +1,11 @@
+name: build the apks
+'on':
+  workflow_dispatch:
+
+jobs:
+  dispatched_two:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: echo
+        run: echo "Hello World!"

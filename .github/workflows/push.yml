@@ -1,0 +1,13 @@
+name: build the apks
+'on':
+  push:
+
+jobs:
+  dispatched:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: echo
+        run: echo "Hello World!"
+      - name: dispatch next
+        run: gh workflow run dispatch2.yml
