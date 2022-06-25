@@ -1,6 +1,6 @@
 name: second dispatch
 'on':
-  workflow_dispatch:
+  workflow_call:
 
 jobs:
   dispatched_two:
