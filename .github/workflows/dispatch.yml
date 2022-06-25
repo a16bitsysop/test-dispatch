@@ -1,4 +1,4 @@
-name: build the apks
+name: first dispatch
 'on':
   repository_dispatch:
   workflow_dispatch:

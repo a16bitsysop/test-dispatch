@@ -1,4 +1,4 @@
-name: build the apks
+name: push workflow
 'on':
   push:
 
