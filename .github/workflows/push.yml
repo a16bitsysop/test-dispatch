@@ -11,3 +11,5 @@ jobs:
         run: echo "Hello World!"
       - name: dispatch next
         run: gh workflow run dispatch2.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
